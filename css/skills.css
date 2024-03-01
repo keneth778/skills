@@ -1,0 +1,40 @@
+.btn-skills{
+    background-color: gray; /* Color de fondo */
+    color: white; /* Color del texto */
+    width: 12rem; /* Ancho */
+    height: 3rem; /* Altura */
+    border-radius: 2rem; /* Radio de borde */
+    margin: auto; /* Margen automático */
+    padding: 2rem 4rem; /* Relleno */
+    font-weight: 400;
+
+    display: flex; /* Tipo de visualización */
+    justify-content: center; /* Alineación horizontal del contenido */
+    align-items: center; /* Alineación vertical del contenido */
+}
+.skills > p{
+    font-size: 1.6rem;
+    margin: 2rem 0px;
+    color: rgb(66, 66, 66);
+}
+.list-skills{
+    width: 100%;
+   
+
+    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.list-skills div{
+    height: 13rem;
+}
+.list-skills img{
+    display: block;
+    margin: auto;
+}
+.todo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5rem;
+    align-items: center;
+}

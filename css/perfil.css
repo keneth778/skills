@@ -1,0 +1,44 @@
+.img-perfil{
+    width: 25rem;
+    height: 30rem;
+    margin: 20px auto;
+}
+.img-perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.informacion{
+    margin: 2rem 0px;
+}
+.informacion h1{
+    font-size: 3rem;
+}
+.informacion p{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: rgb(29, 29, 31);
+}
+.estado{
+    margin: 2rem 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2.8rem
+    color: rgb(29, 29, 31);
+}
+.redes{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+.aboutme {
+    width: 1000px;
+    gap: 1.6rem;
+    height: auto; /* Permitimos que la altura se ajuste al contenido */
+    display: inline-block; /* Cambiamos a inline-block para que el contenedor se ajuste al contenido */
+    margin: 6rem auto 2rem; /* Agregamos margen inferior para separarlo del contenido de img-men */
+    color: #4B5563;
+}
+
